@@ -14,9 +14,6 @@ import com.test.maxinteger.service.MaxIntegerService;
 
 @SpringBootTest
 class MaxintegerApplicationTests {
-	private Integer xInteger;
-	private Integer yInteger;
-	private Integer nInteger;
 
 	@InjectMocks
 	MaxIntegerService maxIntegerService;
