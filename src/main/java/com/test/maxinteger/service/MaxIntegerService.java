@@ -3,7 +3,6 @@ package com.test.maxinteger.service;
 
 import org.springframework.stereotype.Component;
 
-import com.test.maxinteger.dto.RequestInteger;
 import com.test.maxinteger.dto.ResponseInteger;
 import com.test.maxinteger.exception.MaxIntegerException;
 
