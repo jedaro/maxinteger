@@ -5,7 +5,7 @@ API Rest que recibe 3 párametos 𝑥,𝑦 y 𝑛 y obtiene el mayor número ent
 ## Requirements
 - Java 11
 - Maven 3.6.3
-- Spring Boot 3.1
+- Spring Boot 2.7.12
 - Visual Studio Code
 
 ## Build and Run
