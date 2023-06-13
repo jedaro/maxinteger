@@ -16,7 +16,7 @@ Clonar el repositorio desde Visual Studio Code y ejecutar
 ## Acceso API Rest
 Acceder a la API Rest desde el navegador o curl con la URL
 
-```http://localhost:8080/```
+```GET http://localhost:8080/```
 
 ## Acceso al servicio /max-integer
 ```
@@ -37,6 +37,6 @@ GET /max-integer?xInteger=5&yInteger=0&nInteger=4
 Accept: application/json
 Content-Type: application/json
 
-RESPONSE: HTTP 404 (NOT FPUND)S
+RESPONSE: HTTP 404 (NOT FOUND)
 
 ```
