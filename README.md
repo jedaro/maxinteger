@@ -29,3 +29,14 @@ RESPONSE: HTTP 200 (OK)
     "maximumInteger": K
 }
 ```
+
+## Error en la consulta /max-integer
+Se maneja excepción con estado 404 para errores que se puedan presentar en el cálculo
+```
+GET /max-integer?xInteger=5&yInteger=0&nInteger=4
+Accept: application/json
+Content-Type: application/json
+
+RESPONSE: HTTP 404 (NOT FPUND)S
+
+```
